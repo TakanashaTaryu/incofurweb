@@ -8,13 +8,11 @@
 </header>
 
 <style>
-	nav {
-	}
 	a {
 		/* background-color: black; */
 		text-decoration: none;
 		margin: clamp(10px, 3dvw, 30px);
-		font-size: clamp(10px, 5dvw, 35px);
+		font-size: clamp(10px, 3dvw, 35px);
 	}
 	h1 {
 		/* background-color: black; */
@@ -28,6 +26,6 @@
 		justify-content: space-between;
 		height: fit-content;
 		padding-inline: clamp(1em, 5dvw, 3em);
-        position: sticky;
+		position: sticky;
 	}
 </style>
