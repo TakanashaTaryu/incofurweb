@@ -1,12 +1,21 @@
+
+<!-------------------->
+<!-- Navbar Incofur -->
+<!-------------------->
+
+
+<!-- HTML -->
 <header>
-	<h1 class="coolvetica" style="font-weight: 100;">Incofur</h1>
-	<nav>
+	<h1 class="coolvetica" style="font-weight: 100;" onclick="">Incofur</h1>
+	<nav class="montserrat">
 		<a href="./About">About</a>
 		<a href="./About">News</a>
 		<a href="./About">Contacts</a>
 	</nav>
 </header>
 
+
+<!-- CSS -->
 <style>
 	a {
 		/* background-color: black; */
