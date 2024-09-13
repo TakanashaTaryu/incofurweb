@@ -2,6 +2,12 @@
 	import Navbar from './Navbar.svelte';
 </script>
 
+<svelte:head>
+	<title>
+		Incofur Community
+	</title>
+</svelte:head>
+
 <Navbar />
 <body>
 	<h1 class="">Welcome to SvelteKit</h1>
