@@ -1,17 +1,33 @@
 <header>
 	<h1 class="coolvetica" style="font-weight: 100;">Incofur</h1>
-	<nav></nav>
+	<nav>
+		<a href="./About">About</a>
+		<a href="./About">News</a>
+		<a href="./About">Contacts</a>
+	</nav>
 </header>
 
 <style>
-    h1 {
-        height: fit-content;
-    }
-    header{
-        display: flex;
-        height: fit-content;
-        background-color: darkslategray;
-        border-radius: 10px;
-        padding-inline: 1em;
-    }
+	nav {
+	}
+	a {
+		/* background-color: black; */
+		text-decoration: none;
+		margin: clamp(10px, 3dvw, 30px);
+		font-size: clamp(10px, 5dvw, 35px);
+	}
+	h1 {
+		/* background-color: black; */
+		height: fit-content;
+		font-size: clamp(25px, 5dvw, 65px);
+	}
+	header {
+		/* background-color: slategray; */
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		height: fit-content;
+		padding-inline: clamp(1em, 5dvw, 3em);
+        position: sticky;
+	}
 </style>

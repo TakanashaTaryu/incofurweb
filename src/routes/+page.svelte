@@ -10,8 +10,8 @@
 
 <style>
 	body {
-		margin: 0;
-		background-image: linear-gradient(to top, #000000 40%, rgba(0, 0, 0, 0)), url(./incofurbg.png);
+		margin: 0%;
+		background-image: linear-gradient(to top, #20214e 40%, rgba(0, 0, 0, 0)), url(incofurbg.png);
 		background-repeat: no-repeat;
 		background-size: cover;
 		background-attachment: fixed;
