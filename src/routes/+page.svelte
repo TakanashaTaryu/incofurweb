@@ -20,6 +20,7 @@
 			url(../images/incofurbg.png);
 		background-repeat: no-repeat;
 		background-size: contain;
+		background-attachment: fixed;
 	}
 	body::before {
 		content: '';
