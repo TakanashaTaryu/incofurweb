@@ -44,7 +44,7 @@
 		left: 0;
 		width: 100%;
 		z-index: -1;
-		background-image: linear-gradient(to top, #20214e, rgba(0, 0, 0, 0));
+		background-image: linear-gradient(to top, #20214e 40%, rgba(0, 0, 0, 0));
 		/* background-color:red; */
 	}
 	.banner-gradient {
