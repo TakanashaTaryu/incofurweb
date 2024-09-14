@@ -19,7 +19,15 @@
 		background-image: linear-gradient(to top, #20214e 40%, rgba(0, 0, 0, 0)),
 			url(../images/incofurbg.png);
 		background-repeat: no-repeat;
+		background-size: contain;
+	}
+	body::before {
+		content: '';
+		height: 100%;
+		width: 100%;
+		background-color: #20214e;
 		background-size: cover;
 		background-attachment: fixed;
+
 	}
 </style>
