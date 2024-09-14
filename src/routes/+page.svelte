@@ -52,4 +52,13 @@
 		aspect-ratio: 23/11;
 		height: auto;
 	}
+	body::before {
+		content: '';
+		height: 100%;
+		width: 100%;
+		background-color: #20214e;
+		background-size: cover;
+		background-attachment: fixed;
+
+	}
 </style>
