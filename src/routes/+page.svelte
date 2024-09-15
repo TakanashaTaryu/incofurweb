@@ -29,7 +29,6 @@
 
 	body {
 		animation: fadetop 2s ease normal;
-		overflow-x: hidden;
 	}
 
 	[id*='bg'] {

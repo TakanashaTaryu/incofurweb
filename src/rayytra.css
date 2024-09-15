@@ -4,6 +4,10 @@
 /* ------------- */
 /* Global Values */
 /* ------------- */
+body{
+	overflow-x: clip;
+}
+
 * {
 	color: aliceblue;
 }
