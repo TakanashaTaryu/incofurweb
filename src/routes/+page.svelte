@@ -81,8 +81,7 @@
 		background-image: linear-gradient(var(--angle), #4476ff 10%, #d25fff 60%);
 		background-clip: text;
 		color: transparent;
-		animation: gradrot 5s linear infinite;
-		animation: faderight20 1.3s cubic-bezier(0.77, 0, 0.175, 1);
+		animation: gradrot 5s linear infinite, faderight20 1.3s cubic-bezier(0.77, 0, 0.175, 1);
 
 		&::before {
 			position: absolute;
