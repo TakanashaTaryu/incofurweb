@@ -56,7 +56,7 @@
 	}
 	.banner-gradient {
 		z-index: -1;
-		aspect-ratio: 23/11;
+		aspect-ratio: 23/12;
 		height: auto;
 	}
 
