@@ -73,7 +73,7 @@
 		margin-bottom: auto;
 		margin-top: calc(15dvw + 5dvh);
 		line-height: 1em;
-		background-image: linear-gradient(var(--angle), #4476ff 20%, #d25fff 80%);
+		background-image: linear-gradient(var(--angle), #4476ff 10%, #d25fff 60%);
 		background-clip: text;
 		color: transparent;
 		animation: gradrot 5s linear infinite;
