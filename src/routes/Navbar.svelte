@@ -28,6 +28,8 @@
 	}
 	header {
 		/* background-color: slategray; */
+		z-index: 2;
+		padding-top: 1dvw;
 		display: flex;
 		align-items: center;
 		justify-content: space-between;

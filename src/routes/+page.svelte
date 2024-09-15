@@ -65,6 +65,7 @@
 	}
 
 	#Title {
+		z-index: 1;
 		--angle: 0deg;
 		font-size: 36pt;
 		font-weight: 800;
@@ -72,11 +73,23 @@
 		margin-bottom: auto;
 		margin-top: calc(15dvw + 5dvh);
 		line-height: 1em;
-		background-image: linear-gradient(var(--angle), #5e42ff 20%, #c469e7 85%);
+		background-image: linear-gradient(var(--angle), #4476ff 20%, #d25fff 80%);
 		background-clip: text;
 		color: transparent;
-		transition: --angle 2s;
-		animation: gradrot 5s ease infinite;
+		animation: gradrot 5s linear infinite;
+
+		&::before {
+			position: absolute;
+			z-index: 0;
+			--angle: 0deg;
+			content: 'Incofur \A Community';
+			white-space: pre-wrap;
+			background-image: linear-gradient(var(--angle), #4476ff 20%, #d25fff 80%);
+			background-clip: text;
+			opacity: 0.5;
+			filter: blur(15px);
+			animation: gradrot 5s linear infinite;
+		}
 	}
 	#Subtitle {
 		font-size: 12pt;
@@ -95,7 +108,7 @@
 	}
 
 	#crefurs:hover {
-		font-size: 17pt;
+		font-size: 14pt;
 		font-weight: 800;
 		filter: drop-shadow(0px 0px 15px rgba(78, 199, 255, 0.5))
 			drop-shadow(5px 5px 0px rgba(15, 2, 129, 0.493));
