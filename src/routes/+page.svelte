@@ -26,6 +26,12 @@
 		inherits: false;
 		initial-value: 0deg;
 	}
+
+	body {
+		animation: fadetop 2s ease normal;
+		overflow-x: hidden;
+	}
+
 	[id*='bg'] {
 		margin: 0px;
 		position: relative;
@@ -77,6 +83,7 @@
 		background-clip: text;
 		color: transparent;
 		animation: gradrot 5s linear infinite;
+		animation: faderight20 1.3s cubic-bezier(0.77, 0, 0.175, 1);
 
 		&::before {
 			position: absolute;
@@ -97,6 +104,7 @@
 		margin: auto;
 		margin-top: 10px;
 		padding-inline: 6dvw;
+		animation: faderight20 1.5s cubic-bezier(0.77, 0, 0.175, 1);
 	}
 
 	#crefurs {

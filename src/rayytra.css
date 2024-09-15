@@ -42,3 +42,39 @@
 	width: fit-content;
 	margin: auto;
 }
+
+/* ----- */
+/* Anims */
+/* ----- */
+@keyframes fadetop {
+	from {
+		translate: 0px -10px;
+		opacity: 0;
+	}
+	to {
+		translate: 0px 0px;
+		opacity: 1;
+	}
+}
+
+@keyframes faderight {
+	from {
+		translate: 10px 0px;
+		opacity: 0;
+	}
+	to {
+		translate: 0px 0px;
+		opacity: 1;
+	}
+}
+
+@keyframes faderight20 {
+	from {
+		translate: 20px 0px;
+		opacity: 0;
+	}
+	to {
+		translate: 0px 0px;
+		opacity: 1;
+	}
+}
