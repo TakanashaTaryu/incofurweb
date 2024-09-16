@@ -15,7 +15,7 @@
 <!-- CSS -->
 <style>
 	* {
-		animation: fadetop 2s cubic-bezier(0.77, 0, 0.175, 1);
+		animation: fadetop 2.5s cubic-bezier(0.77, 0, 0.175, 1);
 	}
 
 	a {
